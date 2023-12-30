@@ -1,0 +1,9 @@
+.alpackages/
+.altestrunner/
+.snapshots/
+.vscode\launch.json
+.vscode/
+!.vscode/settings.json
+*.app
+*.xlf
+zOldApps/

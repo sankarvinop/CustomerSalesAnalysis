@@ -1,0 +1,85 @@
+{
+    "name": "My Ruleset",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action":"None",
+            "justification": "This is OK -> File Naming using own naming conversion"
+        },
+        {
+            "id": "AA0204",
+            "action": "None",
+            "justification": "This is OK -> Page field variables only"
+        }
+        ,
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "This is OK -> no modificaiton requried"
+        }   ,
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "This is OK -> comments not required"
+        },
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "This is OK -> Tool Tip not requried for hidden fields"
+        }  ,
+        {
+            "id": "AL0606",
+            "action": "None",
+            "justification": "This is OK -> we will fix it next release"
+        } ,            
+        {
+            "id": "AL0432",
+            "action": "None",
+            "justification": "This is OK -> we will fix it next release"
+        } 
+        ,            
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "We will have our own prefix naming scheme for variables and file names."
+        } 
+        ,            
+        {
+            "id": "AS0011",
+            "action": "None",
+            "justification": "This is OK -> we will fix it next release"
+        } ,            
+        {
+            "id": "AA0005",
+            "action": "None",
+            "justification": "This is OK -> we will fix it next release"
+        },          
+        {
+            "id": "AA0139",
+            "action": "None",
+            "justification": "have to fix later"
+        } ,          
+        {
+            "id": "AA0217",
+            "action": "None",
+            "justification": "have to fix later"
+        } ,          
+        {
+            "id": "AL0729",
+            "action": "None",
+            "justification": "The property 'PromotedActionCategories' can only be set if the property 'PageType' is set with any of the values of: 'Card,Document,List,ListPlus,Worksheet' This warning will become an error in a future release."
+        } ,          
+        {
+            "id": "AL0749",
+            "action": "None",
+            "justification": "The property 'PromotedActionCategories' can only be set if the property 'PageType' is set with any of the values of: 'Card,Document,List,ListPlus,Worksheet' This warning will become an error in a future release."
+        }        ,          
+        {
+            "id": "AL0667",
+            "action": "None",
+            "justification": "'FindSet' is being deprecated in the versions: '11.0' or greater.  This warning will become an error in a future release."
+        } 
+
+    ]
+}
