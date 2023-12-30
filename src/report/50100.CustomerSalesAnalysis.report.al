@@ -60,7 +60,6 @@ report 50100 "NMX_Customer Sales Analysis"
                     begin
                         Customer.SetFilter("Date Filter", '%1..%2', DMY2Date(1, Months.Number, TempCYYear), CalcDate('CM', DMY2Date(1, Months.Number, TempCYYear)));
                         Customer.CalcFields("Sales (LCY)");
-                        Sales := Customer."Sales (LCY)";
                     end;
                 }
                 trigger OnPreDataItem()
@@ -130,9 +129,6 @@ report 50100 "NMX_Customer Sales Analysis"
 
     var
         NoOfYears: Integer;
-        Sales: Decimal;
         TempCYYear: Integer;
         CYYear: Integer;
-        Period: Date;
-
 }
